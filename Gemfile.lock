@@ -81,9 +81,6 @@ GEM
       activesupport (>= 5.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    importmap-rails (1.2.1)
-      actionpack (>= 6.0.0)
-      railties (>= 6.0.0)
     io-console (0.6.0)
     irb (1.7.4)
       reline (>= 0.3.6)
@@ -169,14 +166,8 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.6.3-x86_64-darwin)
-    stimulus-rails (1.2.1)
-      railties (>= 6.0.0)
     thor (1.2.2)
     timeout (0.4.0)
-    turbo-rails (1.4.0)
-      actionpack (>= 6.0.0)
-      activejob (>= 6.0.0)
-      railties (>= 6.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     web-console (4.2.0)
@@ -195,7 +186,6 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
-  importmap-rails
   jbuilder
   puma (~> 5.0)
   rails (~> 7.0.6)
@@ -203,8 +193,6 @@ DEPENDENCIES
   shakapacker (~> 7.0.2)
   sprockets-rails
   sqlite3 (~> 1.4)
-  stimulus-rails
-  turbo-rails
   tzinfo-data
   web-console
 
