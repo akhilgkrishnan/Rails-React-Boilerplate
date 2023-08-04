@@ -17,3 +17,4 @@ effortless to achieve a polished and consistent design.
 
 - Ruby (version 3.2.2)
 - Ruby on Rails (version 7.0.6)
+- Node (versio 18.17.0)
