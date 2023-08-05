@@ -3,14 +3,23 @@
     "declaration": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
     "lib": ["es6", "dom"],
     "module": "es6",
     "moduleResolution": "node",
     "sourceMap": true,
-    "target": "es5",
+    "target": "ES2021",
     "jsx": "react",
-    "noEmit": true
+    "noEmit": true,
+    "baseUrl": "./",
+    "paths": {
+    }
   },
-  "exclude": ["**/*.spec.ts", "node_modules", "vendor", "public"],
+  "exclude": [
+    "**/*.spec.ts",
+    "node_modules",
+    "vendor",
+    "public",
+  ],
   "compileOnSave": false
 }
