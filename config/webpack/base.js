@@ -1,11 +1,10 @@
-const aliasConfig = require("./alias");
-const { globalMutableWebpackConfig, merge } = require("shakapacker");
 const ForkTSCheckerWebpackPlugin = require("fork-ts-checker-webpack-plugin");
+const { globalMutableWebpackConfig, merge } = require("shakapacker");
+
+const aliasConfig = require("./alias");
 
 let customConfig = {
-  plugins: [
-    new ForkTSCheckerWebpackPlugin(),
-  ],
+  plugins: [new ForkTSCheckerWebpackPlugin()],
 };
 
 const resolveOptions = {
