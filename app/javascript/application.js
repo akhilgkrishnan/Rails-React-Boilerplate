@@ -8,3 +8,4 @@ Rails.start();
 const componentRequireContext = require.context("src/components", true);
 // eslint-disable-next-line react-hooks/rules-of-hooks
 ReactRailsUJS.useContext(componentRequireContext);
+ReactRailsUJS.mountComponents();
