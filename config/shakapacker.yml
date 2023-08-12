@@ -7,11 +7,11 @@ default: &default
   # You can have a subdirectory of the source_path, like 'packs' (recommended).
   # Alternatively, you can use '/' to use the whole source_path directory.
   # Notice that this is a relative path to source_path
-  source_entry_path: packs
+  source_entry_path: /
 
   # If nested_entries is true, then we'll pick up subdirectories within the source_entry_path.
   # You cannot set this option to true if you set source_entry_path to '/'
-  nested_entries: true
+  nested_entries: false
 
   #  While using a File-System-based automated bundle generation feature, miscellaneous warnings suggesting css order
   #  conflicts may arise due to the mini-css-extract-plugin. For projects where css ordering has been mitigated through
