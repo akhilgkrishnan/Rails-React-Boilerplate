@@ -26,6 +26,10 @@
     "3000": {
       "label": "Application",
       "onAutoForward": "openPreview"
+    },
+    "3035": {
+      "label": "Webpacker",
+      "onAutoForward": "openBrowser"
     }
   },
   "forwardPorts": [3000]
