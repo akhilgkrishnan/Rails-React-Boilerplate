@@ -45,7 +45,7 @@ gem "bootsnap", require: false
 gem "shakapacker", "~> 7.0.2"
 
 # Use for React integration
-gem "react-rails"
+gem "react-rails", "~> 3.0"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
