@@ -15,7 +15,7 @@ gem "sprockets-rails"
 gem "sqlite3", "~> 1.4"
 
 # Use the Puma web server [https://github.com/puma/puma]
-gem "puma", "~> 5.0"
+gem "puma", "~> 5.6.7"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
@@ -46,6 +46,10 @@ gem "shakapacker", "~> 7.0.2"
 
 # Use for React integration
 gem "react-rails", "~> 3.0"
+
+# For auditing gems
+gem "bundler-audit", require: false
+gem "ruby_audit", require: false
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
